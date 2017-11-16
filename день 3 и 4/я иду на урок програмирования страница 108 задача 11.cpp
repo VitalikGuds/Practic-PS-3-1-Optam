@@ -1,4 +1,4 @@
-//Даны два натуральных числа. Выяснить в каком из них больше цифр. (определить ф-ю для ращета кол-ва цифр натуральног очисла)
+//РґР°РЅС‹ РґРІР° РЅР°С‚СѓСЂР°Р»СЊРЅС‹С… С‡РёСЃР»Р° . Р’С‹СЏСЃРЅРёС‚СЊ РІ РєР°РєРѕРј РёР· РЅРёС… Р±РѕР»СЊС€Рµ С†РёС„СЂ
 
 
 #include <iostream>
@@ -17,13 +17,13 @@ int Fun(int x)
 }
 int main()
 {
-    setlocale(0,"Rus");
+    
     int a,b;
-    cout<<"Введите первое число: ";cin>>a;
-    cout<<"Введите второе число: ";cin>>b;
-    if(Fun(a)>Fun(b)) cout<<"У первого числа больше цифр."<<endl;
-    else if(Fun(a)<Fun(b)) cout<<"У второго числа больше цифр."<<endl;
-    else if(Fun(a)==Fun(b)) cout<<"Количество цифр совпадает."<<endl;
+    cout<<"Enter the first number: ";cin>>a;
+    cout<<"Enter the second number: ";cin>>b;
+    if(Fun(a)>Fun(b)) cout<<"The first number has more digits."<<endl;
+    else if(Fun(a)<Fun(b)) cout<<"The second number has more digits."<<endl;
+    else if(Fun(a)==Fun(b)) cout<<"Number of digits is the same."<<endl;
     cout<<
     getch();
     return 0;
